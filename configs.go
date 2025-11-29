@@ -1048,7 +1048,7 @@ type EditMessageMediaGroupConfig struct {
 }
 
 func (EditMessageMediaGroupConfig) method() string {
-	return "editMessageMedia"
+	return "editMessageMediaGroup"
 }
 
 func (config EditMessageMediaGroupConfig) params() (Params, error) {
